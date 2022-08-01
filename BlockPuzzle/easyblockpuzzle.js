@@ -16,10 +16,10 @@ create() {
     this.createBoard();
     
     //adds solution blocks
-    blocks[4].setAlpha(.4);
-    blocks[24].setAlpha(.4);
-    // blocks[38].setAlpha(.4);
-    // blocks[48].setAlpha(.4);
+    blocks[2].setAlpha(.4);
+    blocks[3].setAlpha(.4);
+    blocks[22].setAlpha(.4);
+    blocks[23].setAlpha(.4);
     // blocks[79].setAlpha(.4);
 
     //highlights block red when moused over and changes it back to white

@@ -4,12 +4,22 @@ body {
     background: rgb(0,25,36);
     background: linear-gradient(90deg, rgba(0,25,36,1) 15%, rgba(9,121,80,1) 39%, rgba(0,255,222,1) 55%, rgba(0,138,255,1) 79%);
 }
-body h1 {
-    text-align: center;
+
+h1 {
+    font-size: 60px;
+    text-shadow: 2px 2px #000;
+    color: rgb(0, 138, 255);
+    /* background-color: rgb(25,35,50); */
 }
-canvas {
-    display: block;
-    margin: 40px auto;
+
+.author{
+    font-size: 12px;
+    color: rgba(9,121,80,1);
+    text-shadow: none;
+}
+
+.mastermind {
+    margin: 50px 0
 }
 
 a {
