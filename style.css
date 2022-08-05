@@ -1,21 +1,21 @@
 body {
     text-align: center;
     font-family: "Open Sans", sans-serif;
-    background: rgb(0,25,36);
-    background: linear-gradient(90deg, rgba(0,25,36,1) 15%, rgba(9,121,80,1) 39%, rgba(0,255,222,1) 55%, rgba(0,138,255,1) 79%);
+    background: linear-gradient(90deg, black, white);
 }
 
 h1 {
     font-size: 60px;
-    text-shadow: 2px 2px #000;
-    color: rgb(0, 138, 255);
-    /* background-color: rgb(25,35,50); */
+    text-shadow: 4px 4px #000;
+    color:white;
+    text-decoration: underline gray;
 }
 
-.author{
+.author {
     font-size: 12px;
-    color: rgba(9,121,80,1);
+    color: black;
     text-shadow: none;
+    text-decoration: none;
 }
 
 .mastermind {
@@ -26,16 +26,33 @@ a {
     display: inline-block;
     padding: 20px;
     margin: 0px 20px;
-    background-color: yellowgreen;
+    background-color: gray;
     color: #fff;
     font-weight: bold;
     text-decoration: none;
     text-shadow: 1px 1px #000;
-    border: 1px solid green;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+.game {
+    float: left;
+    padding: 20px;
+    margin: 10px 20px;
+    background-color: gray;
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+    text-shadow: 1px 1px #000;
+    border: 1px solid black;
     border-radius: 20px;
 }
 
 a:hover {
-    background-color: green;
+    background-color: black;
+}
+
+a:active {
+    font-size: 20px;
     color: yellow;
+    transition: font-size .1s, color .1s;
 }
